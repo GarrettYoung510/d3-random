@@ -7,4 +7,4 @@ d3.select("body")
   .enter()
   .append("p") // appends paragraph
 //   .text("D3 is awesome!!"); // prints this for each data in data set
-  .text(function(d){return d;}); // prints out each piece of data
+  .text(d => {return d;}); // prints out each piece of data
